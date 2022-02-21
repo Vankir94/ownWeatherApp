@@ -6,12 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { SahredModule } from './sahred/sahred.module';
 import { WeatherForTodayComponent } from './weather-for-today/weather-for-today.component';
+import { WeatherForFewDaysComponent } from './weather-for-today/weather-for-few-days/weather-for-few-days.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WeatherForTodayComponent
+    WeatherForTodayComponent,
+    WeatherForFewDaysComponent
   ],
   imports: [
     BrowserModule,

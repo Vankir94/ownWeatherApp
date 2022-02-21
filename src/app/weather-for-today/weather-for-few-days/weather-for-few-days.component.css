@@ -1,0 +1,21 @@
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-day {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.temp-day {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    text-transform: uppercase;
+}

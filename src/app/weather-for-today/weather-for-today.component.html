@@ -3,13 +3,14 @@
     <span class="date-container">
         {{date | date :'EEE d LLLL'}} {{date | date : 'h:mm a'}}
     </span>
-    <div>
-        <span class="temp-container">{{temp}}°</span>
-        <div>
+    <div class="weather-container">
+        <span class="temp-container">{{temp}}<span class="decorative-el">°</span></span>
+        <div class="statistics-container">
             <span>{{stateOfTheDay}}</span>
             <span>FEELS LIKE: {{temperatureIsFelt}}°</span>
             <span>WIND: {{wind}} m/s</span>
             <span>HUMIDITY: {{humidity}}%</span>
         </div>
     </div>
+    <app-weather-for-few-days></app-weather-for-few-days>
 </div>

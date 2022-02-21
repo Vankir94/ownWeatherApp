@@ -20,4 +20,29 @@ h1 {
     font-size: 306px;
     line-height: 373px;
     text-transform: uppercase;
+    position: relative;
+}
+
+.weather-container {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+
+.decorative-el {
+    font-size: 100px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20%;
 }
