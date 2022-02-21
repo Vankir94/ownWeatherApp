@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>{{city}}, {{theCountry}}</h1>
+    <span class="date-container">
+        {{date | date :'EEE d LLLL'}} {{date | date : 'h:mm a'}}
+    </span>
+    <div>
+        <span class="temp-container">{{temp}}°</span>
+        <div>
+            <span>{{stateOfTheDay}}</span>
+            <span>FEELS LIKE: {{temperatureIsFelt}}°</span>
+            <span>WIND: {{wind}} m/s</span>
+            <span>HUMIDITY: {{humidity}}%</span>
+        </div>
+    </div>
+</div>
